@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="" />
+    <list default="true" id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="gotowe portfolio bez kontentu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hsCLFOMBE1Skt2VrV7ue21wK7Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,13 +56,33 @@
       <option name="presentableId" value="Default" />
       <updated>1600790354041</updated>
     </task>
+    <task id="LOCAL-00001" summary="gotowe portfolio bez kontentu">
+      <created>1600890024520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600890024520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gotowe portfolio bez kontentu" />
+    <option name="LAST_COMMIT_MESSAGE" value="gotowe portfolio bez kontentu" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1600889831864">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889831864" />
+    <state x="808" y="387" key="Github.ShareDialog" timestamp="1600889931879">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="808" y="387" key="Github.ShareDialog/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889931879" />
     <state x="452" y="39" key="SettingsEditor" timestamp="1600889771321">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
