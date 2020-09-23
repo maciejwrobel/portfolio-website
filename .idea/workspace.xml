@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hsCLFOMBE1Skt2VrV7ue21wK7Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/root/static/cv" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\cv" />
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\portfolio\templates\portfolio" />
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\images" />
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="" />
+      <created>1600790354041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600790354041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="39" key="SettingsEditor" timestamp="1600889771321">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="452" y="39" key="SettingsEditor/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889771321" />
+  </component>
+</project>
