@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="gotowe portfolio bez kontentu">
+    <list default="true" id="23fac87a-12fe-48aa-abca-4580a733df31" name="Default Changelist" comment="debug">
+      <change afterPath="$PROJECT_DIR$/root/static/cv/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/1en.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/1en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/2en.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/2en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/3en.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/3en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/templates/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/templates/portfolio/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/root/portfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/cv/CV_EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/cv/CV_PL.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/root/static/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/root/static/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/root/static/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/root/static/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +52,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testy" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hsCLFOMBE1Skt2VrV7ue21wK7Z" />
@@ -31,18 +70,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/root/static/cv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/root/static/images" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\images" />
       <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\cv" />
       <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\portfolio\templates\portfolio" />
-      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\images" />
       <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PYTHON projekty\PROJEKT KONCOWY\portfolio2\root\static\js" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -63,29 +102,53 @@
       <option name="project" value="LOCAL" />
       <updated>1600890024520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="debug">
+      <created>1600891185903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600891185903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gotowe portfolio bez kontentu" />
-    <option name="LAST_COMMIT_MESSAGE" value="gotowe portfolio bez kontentu" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1600889831864">
+    <state x="686" y="192" key="FileChooserDialogImpl" timestamp="1602255680875">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889831864" />
-    <state x="808" y="387" key="Github.ShareDialog" timestamp="1600889931879">
+    <state x="686" y="192" key="FileChooserDialogImpl/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1602255680875" />
+    <state x="808" y="387" key="Github.ShareDialog" timestamp="1602258543582">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="808" y="387" key="Github.ShareDialog/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889931879" />
+    <state x="808" y="387" key="Github.ShareDialog/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1602258543582" />
     <state x="452" y="39" key="SettingsEditor" timestamp="1600889771321">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="452" y="39" key="SettingsEditor/0.0.1920.1032/1920.30.1680.1050@0.0.1920.1032" timestamp="1600889771321" />
+    <state x="602" y="16" width="716" height="999" key="find.popup" timestamp="1600945916414">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="602" y="16" width="716" height="999" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1600945916414" />
   </component>
 </project>

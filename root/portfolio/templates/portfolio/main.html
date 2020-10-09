@@ -27,11 +27,12 @@
                 <div class="nav-wrapper">
                     <div class="dots-wrapper">
                         <a href="http://127.0.0.1:8000/eng">
-                        <img id="dot-1" class="browser-dot" src="{% static 'images/GB.png' %}">
+                        <img id="dot-2" class="browser-dot" src="{% static 'images/GB.png' %}">
                     </div>
 
                     <ul id="navigation">
                         <li><a href="#contact-form">Kontakt</a></li>
+
                     </ul>
 
                 </div>
@@ -52,8 +53,8 @@
 					<div id="preview-shadow">
 						<div id="preview">
 
-							<h3>Kim Jesteśmy</h3>
-							<p>Dokąd zmierzamy?</p>
+							<h3>Junior Python Developer</h3>
+
 
 						</div>
 					</div>
@@ -69,32 +70,37 @@
                 <div class="about-me">
                     <h4>Więcej o mnie</h4>
 
-                    <p>ziobro kurwo jebana</p>
-
-                    <p>przestań mi kurwo rodzine prześladować</p>
+                    <p>Ukończyłem kurs programowania w języku Python i
+                        szukam możliwości zdobycia pierwszego komercyjnego doświadczenia
+                        w branży IT.</p>
+                    <p>Jestem otwartym i kreatywnym człowiekiem, stale uczę się nowych technologii i chcę
+                        doskonalić swoje umiejętności.</p>
+                    <p><a target="blank" href="static/cv/CV.pdf">Moje CV</a></p>
 
 
                     <hr>
 
-                    <h4>Zakres kursu</h4>
+                    <h4>O Kursie</h4>
 
-                    <p>jebać sda, a tu moje CV: <a target="blank" href="static/cv/CV_PL.pdf">Pobierz CVke</a></p>
+                    <p>Organizatorem stacjonarnego kursu było Software Development Academy.
+                        'Python od podstaw' trwał 311h, w okresie 11.2019-09.2020. </p>
+                    <p>Zakres kursu:</p>
 
                     <div id="skills">
                         <ul>
                             <li>Python</li>
-                            <li>Django</li>
-                            <li>HTML/CSS</li>
-                            <li>SQL</li>
+                            <li>GIT</li>
+                            <li>MySQL</li>
                             <li>NoSQL</li>
+                            <li>TDD</li>
                         </ul>
 
                         <ul>
-                            <li>SCRUM</li>
-                            <li>TDD</li>
+                            <li>Django</li>
                             <li>Flask</li>
+                            <li>HTML/CSS</li>
                             <li>JavaScript</li>
-                            <li>willing to learn</li>
+                            <li>SCRUM</li>
                         </ul>
 
                     </div>
@@ -108,7 +114,7 @@
                     <a target="_blank" href="https://www.linkedin.com/in/maciej-wr%C3%B3bel-7707b419b/">
                          <img class="social" src="{% static 'images/ln.png' %}">
                     </a>
-                    <a target="_blank" href="https://github.com/maciejwrobel/projects.git">
+                    <a target="_blank" href="https://github.com/maciejwrobel">
                          <img class="social" src="{% static 'images/githubjpg.jpg' %}">
                     </a>
 
@@ -126,8 +132,8 @@
                     <div class="post">
                         <img class="thumbnail" src="{% static 'images/1.jpg' %}">
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">Tu jest krótki opis projektu. balbalbalablab</p>
+                            <h6 class="post-title">Moja strona</h6>
+                            <p class="post-intro">Strona - wizytówka, na której się teraz znajdujesz.</p>
                             <a href="/1">Więcej</a>
                         </div>
                     </div>
@@ -136,8 +142,8 @@
                     <div class="post">
                         <img class="thumbnail" src="{% static 'images/2.jpg' %}">
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">Tu jest krótki opis projektu. balbalbalablab</p>
+                            <h6 class="post-title">Menadżer Finansów Zespołów</h6>
+                            <p class="post-intro">Dla wszystkich, którym proponowano 'zagranie koncertu za piwo'.</p>
                             <a href="/2">Więcej</a>
                         </div>
                     </div>
@@ -146,8 +152,8 @@
                     <div class="post">
                         <img class="thumbnail" src="{% static 'images/3.jpg' %}">
                         <div class="post-preview">
-                            <h6 class="post-title">Post Title</h6>
-                            <p class="post-intro">Tu jest krótki opis projektu. dasd asd ad asdasd asd asd assd asd asd balbalbalablab</p>
+                            <h6 class="post-title">Gra 2048</h6>
+                            <p class="post-intro">Prosta, ale wciągająca gra logiczna, żeby pozwolić sobie na chwilę odpoczynku.</p>
                             <a href="/3">Więcej</a>
                         </div>
                     </div>
@@ -163,16 +169,16 @@
             <form action="https://formspree.io/mwkwkawb" method="POST" id="contact-form">
                 {% csrf_token %}
                 <label>Imię</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" type="text" name="name" required>
 
                 <label>Temat</label>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field" type="text" name="subject" required>
 
                 <label>Email</label>
-                <input class="input-field" type="text" name="_replyto">
+                <input class="input-field" type="text" name="_replyto" required>
 
                 <label>Treść</label>
-                <textarea class="input-field" name="message"></textarea>
+                <textarea class="input-field" name="message" required></textarea>
 
                 <input id="submit-btn" type="submit" value="Wyślij">
                 <div id="tel">
