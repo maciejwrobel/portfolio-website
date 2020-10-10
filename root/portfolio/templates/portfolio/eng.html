@@ -165,7 +165,8 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get In Touch</h3>
 
-            <form form action="https://formspree.io/mwkwkawb" method="POST" id="contact-form">
+            <form action="https://formspree.io/mwkwkawb" method="POST" id="contact-form">
+                {% csrf_token %}
                 <label>Name</label>
                 <input class="input-field" type="text" name="name" required>
 
