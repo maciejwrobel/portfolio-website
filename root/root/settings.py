@@ -26,7 +26,9 @@ SECRET_KEY = '6cp@p2!dk*0_rba6hq!1bgc#(20vd_jibwj)^%auleh35cbz)e'
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.wrobelmaciej.pl'
+]
 
 
 # Application definition
